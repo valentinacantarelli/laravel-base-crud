@@ -5,7 +5,7 @@
 <div class="container">
     <h1>{{$comic['title']}}</h1>
     <h3> {{$comic['series']}}</h3>
-    <img src="{{$comic['image']}}" alt="">
+    <img src="{{$comic['image']}}" alt="" class="comicCover">
 </div>
 
 
