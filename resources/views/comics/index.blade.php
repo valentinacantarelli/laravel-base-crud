@@ -1,7 +1,7 @@
 @extends('layout.base')
 
 @section('pageContent')
-    <section>
+    <section class="main">
         <div class="container">
             <ul>
                @foreach ($comics as $comic)
@@ -9,7 +9,6 @@
                    <h3>{{$comic["title"]}}</h3>
                     <p>{{$comic["series"]}}</p>
                </li>
-                   
                @endforeach 
             </ul>
         </div>
